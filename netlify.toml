@@ -1,0 +1,5 @@
+[build]
+  # no-op build step
+  command = "true"
+  # point directly at the static files
+  publish = "src/main/resources/static"
