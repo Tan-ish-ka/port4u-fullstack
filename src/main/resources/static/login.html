@@ -189,7 +189,7 @@
           }
 
           try {
-            const res = await fetch("http://localhost:8081/api/login", {
+            const res = await fetch("http://port4u-backend-jgg8.onrender.com/api/login", {
               method: "POST",
               headers: { "Content-Type": "application/json" },
               body: JSON.stringify({ username, password }),
@@ -238,7 +238,7 @@
 
             try {
               const res = await fetch(
-                "http://localhost:8081/api/auth/request-otp",
+                "http://port4u-backend-jgg8.onrender.com/api/auth/request-otp",
                 {
                   method: "POST",
                   headers: { "Content-Type": "application/json" },
@@ -280,7 +280,7 @@
 
             try {
               const res = await fetch(
-                "http://localhost:8081/api/auth/verify-otp",
+                "http://port4u-backend-jgg8.onrender.com/api/auth/verify-otp",
                 {
                   method: "POST",
                   headers: { "Content-Type": "application/json" },
